@@ -1,8 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<header>
+    <head>
+        <title>Application de gestion automobile</title>
+    </head>
+</header>
 
-<p>Salut les amis je me nomme Fall Omar et je suis developpeur full stack</p>
+<body>
+    <div>
+        <h1>Bienvenue sur autoCar</h1>
+    </div>
+    <div class="col">
+        <ol>
+            <ul>
+                Plus de
+                {{nombres}}
+                vehicules Disponibles pour vous
+            </ul>
+        </ol>
+    </div>
+    <div class="formulaire">
+        <div class="form">
+            <div class="button">
+                <button (click)="changeValue()">Consulter toutes la liste disponible</button>
+            </div>
+        </div>
 
-<p>Bienvenue sur notre application de location des vehicules</p>
+    </div>
+</body>
 
-<p>sponsoriser par 10000 codeurs</p>
+<footer>
+    <p>DigitalDevsAfrica</p>
+</footer>
 
-<p> vehicule :{{name}}</p>
+</html>
+

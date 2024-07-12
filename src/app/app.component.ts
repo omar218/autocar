@@ -11,5 +11,14 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'autoCar';
   name = 'Fall Omar';
-  
+  nombres = 582000 ;
+  text : string = "Application de gestion de parc automobile"
+  value: boolean = true;
+
+
+  changeValue(){
+  this.value = !this.value
+  }
+
+  constructor(){}
 }

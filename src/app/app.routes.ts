@@ -1,8 +1,11 @@
-import { Routes } from '@angular/router';
-
-import { VehiculeComponent } from './component/vehicule/vehicule.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { VehiculesComponent } from './vehicules/vehicules.component';
 
 
 export const routes: Routes = [
-    {path: 'vehicule-list',   component: VehiculeComponent},
+{ path: '', component: AppComponent  },
+{path: 'navBar', component:NavbarComponent},
+{path:'vehicules', component:VehiculesComponent}
 ];
